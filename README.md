@@ -59,11 +59,11 @@ import (
 
 const (
 	// TODO: choose a human-readable part for your hyperchain
-	HRP = "MIHIR"
+	HRP = "myhypersdk"
 	// TODO: choose a name for your hyperchain
-	Name = "MAHI"
+	Name = "Armaan"
 	// TODO: choose a token symbol
-	Symbol = "MHR"
+	Symbol = "Arm"
 )
 
 var ID ids.ID
@@ -116,13 +116,8 @@ func init() {
 	errs.Add(
 		// When registering new actions, ALWAYS make sure to append at the end.
 		consts.ActionRegistry.Register(&actions.Transfer{}, actions.UnmarshalTransfer, false),
-
-		// TODO: register action: actions.CreateAsset
 		consts.ActionRegistry.Register(&actions.CreateAsset{}, actions.UnmarshalCreateAsset, false),
-
-		// TODO: register action: actions.MintAsset
 		consts.ActionRegistry.Register(&actions.MintAsset{}, actions.UnmarshalMintAsset, false),
-
 		consts.ActionRegistry.Register(&actions.BurnAsset{}, actions.UnmarshalBurnAsset, false),
 		consts.ActionRegistry.Register(&actions.ModifyAsset{}, actions.UnmarshalModifyAsset, false),
 

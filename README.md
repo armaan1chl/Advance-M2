@@ -11,6 +11,10 @@ This project demonstrates how to use the Avalanche HyperSDK to create a custom v
 - **Token Operations**: Define rules for creating, minting, and transferring tokens.
 - **Order Book Management**: Implement an order book for asset trading.
 
+## Challenge
+
+Your startup has identified a need to create a custom virtual machine to enable users to mint and transfer tokens. The HyperSDK provides a powerful solution for this task by allowing you to build a custom blockchain tailored to your specific needs. With the HyperSDK, you can define the rules and functionality of your chain, including the ability to create and transfer tokens and manage order books for trading assets.
+
 ## Disclaimer
 
 Since HyperSDK is alpha software, we are using the example token VM, which is one of the few that has been tested and guaranteed to be maintained in the upcoming future. Consult the repo constantly to keep your project up to date.
@@ -242,6 +246,10 @@ To shut down the local Avalanche network, run:
 killall avalanche-network-runner
 
 ```
+### CONCLUSION
+- So we have created a custom virtual machine to enable users to mint and transfer tokens.
+- With the HyperSDK, we have defined the rules and functionality of our chain, including the ability to create, mint and transfer tokens .
+  
 ## Authors
 
 Armaan Chahal

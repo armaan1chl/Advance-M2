@@ -171,10 +171,10 @@ When you are done, the output should look something like this:
 ```
 database: .token-cli
 address: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
-chainID: Em2pZtHr7rDCzii43an2bBi1M2mTFyLN33QP1Xfjy7BcWtaH9
-metadata (can be changed later): Arm
+chainID: 2qBqBsx7VyNCSeSHw8vPgHK4iFtLBzrCppsVQEE4YRmtVBpBXF
+metadata (can be changed later): MyCoin
 continue (y/n): y
-✅ txID: 27grFs9vE2YP9kwLM5hQJGLDvqEY9ii71zzdoRHNGC4Appavug
+✅ txID: SP56Fs9vE2YP9kwLM5hQSVGJvqEY9ii71zzdoR3rgx4AppABuN
 ```
 _`txID` is the `assetID` of your new asset._
 
@@ -194,13 +194,13 @@ just to mint to yourself).
 ```
 database: .token-cli
 address: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
-chainID: Em2pZtHr7rDCzii43an2bBi1M2mTFyLN33QP1Xfjy7BcWtaH9
-assetID: 27grFs9vE2YP9kwLM5hQJGLDvqEY9ii71zzdoRHNGC4Appavug
-metadata: MR supply: 0
+chainID: 2qBqBsx7VyNCSeSHw8vPgHK4iFtLBzrCppsVQEE4YRmtVBpBXF
+assetID: SP56Fs9vE2YP9kwLM5hQSVGJvqEY9ii71zzdoR3rgx4AppABuN
+metadata: MyCoin supply: 0
 recipient: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
 amount: 1000
 continue (y/n): y
-✅ txID: X1E5CVFgFFgniFyWcj5wweGg66TyzjK2bMWWTzFwJcwFYkF72
+✅ txID: X1E5CVFgFFgniFyWcj5wweGg66TyzjK2bMWWTzFwJcwFYkF81
 ```
 
 ### Transfer Assets to Another Subnet
@@ -217,9 +217,9 @@ When you are done, the output should look something like this:
 ```
 database: .token-cli
 address: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
-chainID: Em2pZtHr7rDCzii43an2bBi1M2mTFyLN33QP1Xfjy7BcWtaH9
-✔ assetID (use TKN for native token): TKN
-balance: 999.999999126 TKN
+chainID: 2qBqBsx7VyNCSeSHw8vPgHK4iFtLBzrCppsVQEE4YRmtVBpBXF
+✔ assetID (use TKN for native token): SP56Fs9vE2YP9kwLM5hQSVGJvqEY9ii71zzdoR3rgx4AppABuN
+balance: 1000 SP56Fs9vE2YP9kwLM5hQSVGJvqEY9ii71zzdoR3rgx4AppABuN
 recipient: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
 amount: 10
 reward: 0
